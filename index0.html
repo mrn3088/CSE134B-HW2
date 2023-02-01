@@ -1,80 +1,59 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
   <meta charset="utf-8">
   <title>😅 Ruinan's Personal Site</title>
-  <link rel="stylesheet" href="CSS/styles.css">
+  <meta name="description" content="A personal website for Ruinan Ma">
+  <meta name="keywords" content="Ruinan Ma, UC San Diego, Computer Science, Mathematics, Skateboard">
+  <meta name="author" content="Ruinan Ma">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js"></script>
 </head>
-
-
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="/Users/maruinan/Desktop/UC San Diego/SP22/WebDev/HTML - Personal Site/WechatIMG28.jpeg" alt="Ruinan Ma"></td>
-      <td><h1>Ruinan Ma</h1>
-      <p> <i> <strong><a href="https://ucsd.edu/">UCSD</a></strong> CS Student.</i> </p>
-      <p>I am a current UCSD student.  I like skateboard.</p></td>
-    </tr>
-  </table>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#coursework">Coursework</a></li>
+        <li><a href="#education">education</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <table cellspacing="20">
+      <tr>
+        <td>
+          <picture>
+            <img src="/Users/maruinan/Desktop/UC_San_Diego/WI23/CSE134B/PHOTO.jpeg" alt="Ruinan Ma" width="100px">
+            <source srcset="/Users/maruinan/Desktop/UC_San_Diego/WI23/CSE134B/PHOTO.jpeg" alt="Ruinan Ma"
+              media="(max-width: 100px)">
+          </picture>
+        </td>
+        <td>
+          <h1>Ruinan Ma</h1>
+          <h2>Sophomore @ <a href="https://ucsd.edu/">UC San Diego</a>.</h2>
+          <p>I am working on my undergraduate degree of <a
+              href="https://cse.ucsd.edu/"><code> Computer Science</code></a> and <a
+              href="https://math.ucsd.edu/">Mathematics-Applied Science</a>.</p>
+          <p>I like skateboard. I also like <span class="highlight">making stuffs</span> .
+          </p>
+          <p>I <b>don't</b> really like HUM 😅</p>
+          <br>
+          <p><i>Life is the sum of all your choices.</i> -- <a
+                href="https://en.wikipedia.org/wiki/Albert_Camus">Albert
+                Camus</a> </p>
+        </td>
+      </tr>
+    </table>
+    <hr>
 
-  <hr>
+<section id="coursework">
   <h3>Courses taken</h3>
   <ul>
     <li><a href="https://ucsd-cse11-sp22.github.io/">CSE 11</a></li>
     <li>CSE 12</li>
     <li>CSE 15l</li>
     <li>CSE 20</li>
-    <li>CSE 21</li>
-    <li>CSE 100</li>
-  </ul>
-  <hr>
-  <table border="1" cellspacing="2">
-    <thead>
-      <tr>
-        <th>Year</th>
-        <th>Insitution</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2018-2021</td>
-        <td>Experimental High School Attached to BNU</td>
-      </tr>
-      <tr>
-        <td>2021-present</td>
-        <td>University of California, San Diego</td>
-      </tr>
-    </tbody>
-    <tfoot>
-
-    </tfoot>
-  </table>
-  <hr>
-  <br>
-  <table border="1">
-    <tr>
-      <td>JAVA</td>
-      <td>😀😀😀😀😀😀</td>
-    </tr>
-    <tr>
-      <td>CPP</td>
-      <td>🥺🥺🥺🥺🥺🥺</td>
-    </tr>
-  </table>
-  <h3>Education</h3>
-  <a href="/Users/maruinan/Desktop/UC San Diego/SP22/WebDev/HTML - Personal Site/Hobbies.html">My Hobbies</a>
-  <br>
-  <form class="" action="mailto:r7ma@ucsd.edu" method="post" enctype="text/plain">
-    <label for="">Your name</label>
-    <input type="text" name="yourName" value=""><br>
-    <label for="">Email</label>
-    <input type="email" name="yourEmail">
-    <textarea name="name" rows="8" cols="30"></textarea>
-    <label for="">Do you want to sign up to the email list?</label>
-    <input type="checkbox"><br>
-    <input type="submit" name="">
-  </form>
-</body>
-
-</html>
+    <li>CSE 21

@@ -3,152 +3,336 @@
 
 <head>
   <meta charset="utf-8">
-  <title>😅 Ruinan's Personal Site</title>
-  <style type="text/css">
-    body {
-      background-color: #DAE5D0;
-    }
-  </style>
-
+  <meta name="description" content="A personal website for Ruinan Ma">
+  <meta name="keywords" content="Ruinan Ma, UC San Diego, Computer Science, Mathematics, Skateboard">
+  <meta name="author" content="Ruinan Ma">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruinan's Personal Site🐎</title>
+  <link rel="icon" href="images/favicon.ico">
 </head>
-
-<script>
-  document.write("Welcome to Ruinan's page!")
-</script>
 
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="#coursework">Coursework</a></li>
-        <li><a href="#education">education</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <table cellspacing="20">
+    <p><strong>Seeking internships summer 2023!</strong></p>
+    <table border="0">
       <tr>
         <td>
-          <picture>
-            <img src="/Users/maruinan/Desktop/UC_San_Diego/WI23/CSE134B/PHOTO.jpeg" alt="Ruinan Ma" width="100px">
-            <source srcset="/Users/maruinan/Desktop/UC_San_Diego/WI23/CSE134B/PHOTO.jpeg" alt="Ruinan Ma"
-              media="(max-width: 100px)">
-          </picture>
+          <img height="200px" src="PHOTO.jpeg">
         </td>
         <td>
-          <h1>Ruinan Ma</h1>
-          <h2>Sophomore @ <strong><a href="https://ucsd.edu/">UC San Diego</a></strong>.</h2>
-          <p>I am working on my undergraduate degree of <a
-              href="https://cse.ucsd.edu/"><code> Computer Science</code></a> and <a
-              href="https://math.ucsd.edu/">Mathematics-Applied Science</a>.</p>
-          <p>I like skateboard. I also like <span style="color:darkolivegreen;font-weight:bold">making stuffs</span> .
-          </p>
-          <p>I <b>don't</b> really like HUM 😅</p>
-          <br>
-          <p><i>Life is the sum of all your choices.</i> -- <em><a
-                href="https://en.wikipedia.org/wiki/Albert_Camus">Albert
-                Camus</a></em> </p>
+          <h2>Ruinan Ma<img style="position:relative;top:20px" src="name.jpg"></h2>
+          <div style="position:relative;top:-10px;font-size:16px">r7ma@ucsd.edu</div>
+          <div> <a target="_blank" href="cv.pdf">CV</a> </div>
+        </td>
+        <td>
+          <nav>
+            <ul>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#coursework">Coursework</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#experiences">Experiences</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+              </ol>
+          </nav>
         </td>
       </tr>
     </table>
 
+  </header>
+  <main>
+    <section id="about">
+      <table cellspacing="20">
+        <tr>
+          <td>
+            <h2>Sophomore @ <strong><a href="https://ucsd.edu/">UC San Diego</a></strong>.</h2>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            I am working on my undergraduate degree of <a href="https://cse.ucsd.edu/"> Computer Science</a> and <a
+              href="https://math.ucsd.edu/">Mathematics-Applied Science</a>.
+          </td>
+        <tr>
+          <td>
+            <p>I like skateboard. I also like <span style="color:darkolivegreen;font-weight:bold">making stuffs</span> .
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>I <em> don't</em> really like HUM 😅</td>
+        </tr>
+        <tr>
+          <td>
+            My favourite song is the <i>Handwritten Past</i> by Jay Chou.
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            This is a audio clip I liked.
+          </td>
+          <td><audio controls>
+              <source src="mixkit-rain-and-thunder-storm-2390.wav" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio></td>
+        </tr>
+        <tr>
+          <td>This is a video I took when I visited Yosemite Thanksgiving 2022. </td>
+          <td>
+            <video width="320" height="240" controls>
+              <source src="IMG_4850.MOV">
+              Your browser does not support the video tag.
+            </video>
+          </td>
+        </tr>
+      </table>
+      <aside>
+        <i> Life is the sum of all your choices.</i> -- <a href="https://en.wikipedia.org/wiki/Albert_Camus">Albert
+            Camus</a>
+      </aside>
+    </section>
+
+
     <hr>
 
     <section id="coursework">
-      <h3>Courses taken</h3>
-      <ul>
-        <li><a href="https://ucsd-cse11-sp22.github.io/">CSE 11</a></li>
-        <li>CSE 12</li>
-        <li>CSE 15l</li>
-        <li>CSE 20</li>
-        <li>CSE 21</li>
-        <li>CSE 100</li>
-      </ul>
+      <h3>Some Courses I Took at UCSD🤓</h3>
+      <details>
+        <summary>CSE 100 Advanced Data Structure</summary>
+        High-performance data structures and supporting algorithms. Use and implementation of data structures like
+        (un)balanced trees, graphs, priority queues, and hash tables. Also, memory management, pointers, recursion.
+        Theoretical and practical performance analysis, both average case and amortized. Uses C++ and STL. Recommended
+        preparation: background in C or C++ programming.
+      </details>
+      <details>
+        <summary>CSE 101 Design and Analysis of Algorithms</summary>
+        Design and analysis of efficient algorithms with emphasis of nonnumerical algorithms such as sorting, searching,
+        pattern matching, and graph and network algorithms. Measuring complexity of algorithms, time and storage.
+        NP-complete problems.
+      </details>
+      <details>
+        <summary>CSE 151B Deep Learning</summary>
+        This course covers the fundamentals of neural networks. We introduce linear regression, logistic regression,
+        perceptrons, multilayer networks and back-propagation, convolutional neural networks, recurrent networks, and
+        deep networks trained by reinforcement learning.
+      </details>
+      <details>
+        <summary>CSE 158 Recommender Systems and Web Mining</summary>
+        Current methods for data mining and predictive analytics. Emphasis is on studying real-world data sets, building
+        working systems, and putting current ideas from machine learning research into practice.
+      </details>
+      <details>
+        <summary>CSE 167 Computer Graphics</summary>
+        Representation and manipulation of pictorial data. Two-dimensional and three-dimensional transformations,
+        curves, surfaces. Projection, illumination, and shading models. Raster and vector graphic I/O devices;
+        retained-mode and immediate-mode graphics software systems and applications.
+      </details>
+      <h3>Current Coursework</h3>
+      <ol>
+        <li>
+          CSE 110 Software Engineering
+        </li>
+        <li>
+          CSE 134B Web Client Languages
+        </li>
+        <li>
+          ECE 141A Software Foundation I
+        </li>
+      </ol>
+
     </section>
 
     <hr>
     <div>
       <section id="education">
         <h3>Education</h3>
-        <table border="0" cellspacing="10">
+        <table border="0">
+          <caption>Ruinan's Education</caption>
+          <colgroup>
+            <col style="background-color:#F8EDE3">
+            <col style="background-color:#DFD3C3">
+            <col style="background-color:#D0B8A8">
+          </colgroup>
           <thead>
             <tr>
               <th>Year</th>
               <th>Insitution</th>
+              <th>Major/Fields of study</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>2018-2021</td>
-              <td>Experimental High School Attached to BNU</td>
+              <td>2021 - present</td>
+              <td>University of California, San Diego</td>
+              <td>B.S. Computer Science, B.S. Mathematics-Applied Science</td>
             </tr>
             <tr>
-              <td>2021-present</td>
-              <td>University of California, San Diego</td>
+              <td>2018 - 2021</td>
+              <td>Experimental High School Attached to BNU</td>
+              <td>High School</td>
             </tr>
           </tbody>
-          <tfoot>
-
-          </tfoot>
         </table>
       </section>
     </div>
-
-
     <hr>
-
-    <br>
-    <table border="1">
-      <tr>
-        <td>JAVA</td>
-        <td>😀😀😀😀😀😀</td>
-      </tr>
-      <tr>
-        <td>CPP</td>
-        <td>🥺🥺🥺🥺🥺🥺</td>
-      </tr>
-    </table>
-    <a href="/Users/maruinan/Desktop/UC San Diego/SP22/WebDev/HTML - Personal Site/Hobbies.html">My Hobbies</a>
-    <br>
-
-
-    <form action="mailto:r7ma3088@gmail.edu" method="post" enctype="text/plain">
+    <section id="experiences">
+      <h3>Experiences</h3>
+      <h4>Computer Science Tutor</h4>
       <ul>
         <li>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="user_name">
+          Tutored in CSE 11 (Accelerated Introduction to Programming in Java) (FA22), CSE 12 (Basic Data Structures and
+          Object-Oriented Design) (WI23).
         </li>
         <li>
-          <label for="mail">E-mail:</label>
-          <input type="email" id="mail" name="user_email">
-        </li>
-        <li>
-          <label for="msg">Message:</label>
-          <textarea id="msg" name="user_message"></textarea>
-        </li>
-        <li>
-          <label for="opt">How did you know me?</label>
-          <select>
-            <option>UCSD</option>
-            <option>SDSZ</option>
-            <option>None of the aboves</option>
-          </select>
+          Held office hours 6 hours per week while taking other classes. Tutored more than 70 students.
         </li>
       </ul>
-    </form>
+      <h4>UCSD Chinese Engineering Society (CES)</h4>
+      <ul>
+        <li>
+          Co-hosted the 2021 CES Career Development Roundtable. Invited five guest speakers. More than 100 audience
+          attended.
+        </li>
+        <li>
+          Reached out to professors and alumni to hold the 2022 CES Intern Mixer. More than 100 audience attended.
+        </li>
+        <li>
+          Held the Recommender Fall 2022 Recommender System Competition in UCSD. Participants are required to implement
+          their model to predict restaurants in LA. More than 50 students signed up.
+        </li>
+      </ul>
+      <h4>Beginners' Programming Competition Committee Member</h4>
+      <ul>
+        <li>
+          Organizes the WI23 Beginners’ Programming Competition. 100+ students signed up. 70+ teams participated.
+        </li>
+        <li>
+          Designed a "Hard" label problem. Created test cases three problems. Wrote solutions in python and C++ for four
+          problems.
+        </li>
+      </ul>
+    </section>
+    <hr>
+
+    <section id="projects">
+      <h3>Projects</h3>
+      <h4>MySTL</h4>
+      <ul>
+        <li>
+          Implemented a customed STL for C++, including C++ 17 features such as <code>std::variant</code> and
+          <code>std::string_view</code>.
+        </li>
+        <li>
+          Utilized C++ templates to enable generic programming. Developed and tested various algorithms, including
+          sorting and
+          searching algorithms.
+        </li>
+      </ul>
+      <h4>Ray Tracer</h4>
+      <ul>
+        <li>
+          Implemented various ray tracer features: mirror reflections, soft shadowing, and global illumination.
+        </li>
+        <li>
+          Optimized the renderer for performance through multithreading. Refractored previous code to manage memory
+          using smart pointers.
+        </li>
+      </ul>
+      <h4>File Compression/Decompression Tool</h4>
+      <ul>
+        <li>
+          Designed and programmed a file compression tool in C++. Applied Huffman Tree Algorithm.
+        </li>
+        <li>
+          Optimize the program with tree serialization in header file to improve compression efficiency.
+        </li>
+      </ul>
+      <template id="future-projects">
+        <h4>Project Name</h4>
+        <ul>
+          <li>Bullet points one</li>
+          <li>Bullet points two</li>
+        </ul>
+      </template>
+      
+
+    </section>
+    <hr>
+
+    <section id="contact">
+      <h3>
+        Contact
+      </h3>
+      <form method="get" action="contact.html">
+        <button type="submit">Contact Me!</button>
+      </form>
+    </section>
   </main>
 
   <hr>
+  <h3>
+    Some Photos
+  </h3>
+  <table border="0">
+    <tr>
+      <td>
+        <figure>
+          <img src="17miles.jpeg" alt="17miles" style="width:20%">
+          <figcaption>Took at <a href="https://en.wikipedia.org/wiki/17-Mile_Drive">17 miles</a>.</figcaption>
+        </figure>
+      </td>
+    </tr>
+    <tr>
+      <td>These are some photos of UCSD!</td>
+      <td>
+        <pre>
+          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⣿⣿⣿⣿⣿⣿⣶⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+          ⠀⠀⠀⠀⢀⡀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀⢀⡀⠀⠀⠀⠀
+          ⠀⠀⠀⠀⢸⣿⣆⠀⢾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡷⠀⣰⣿⡇⠀⠀⠀⠀
+          ⠀⠀⠀⢀⣿⣿⣿⣧⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⣼⣿⣿⣿⡀⠀⠀⠀
+          ⠀⠀⠠⢾⣿⣿⣿⣿⣇⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⣸⣿⣿⣿⣿⡷⠄⠀⠀
+          ⠀⠀⠐⣤⡈⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⢁⣤⠂⠀⠀
+          ⠀⠀⠀⢹⣿⣦⡀⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢀⣴⣿⡏⠀⠀⠀   <----- this is a Triton
+          ⠀⠀⠀⣼⣿⣿⣿⣿⠟⢁⠤⠄⠙⢿⣿⣿⡿⢋⡤⠤⠈⠻⣿⣿⣿⣿⣧⠀⠀⠀
+          ⠀⠀⣰⣿⣿⣿⣿⣿⠀⠇⠀⠀⠀⢸⣿⣿⡇⠸⠀⠀⠀⠀⣿⣿⣿⣿⣿⣆⠀⠀
+          ⠀⠀⠉⠉⠛⠻⢿⣿⣷⣄⣀⣀⣴⣿⣿⣿⣿⣦⣀⣀⣠⣾⣿⡿⠟⠛⠉⠉⠀⠀
+          ⠀⠀⠀⠀⠀⠀⠀⠉⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠀⠀⠀⠀⠀⠀⠀
+          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀
+          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
-  
-  <iframe src="http://stage-pubs.ucsd.edu/image-library/campus.php" frameborder="0"></iframe>
+        </pre>
+      </td>
+    </tr>
+    <tr>
+      <td> <iframe src="http://stage-pubs.ucsd.edu/image-library/campus.php" frameborder="0"></iframe>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <h3>More to Come!</h3>
+  <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+  </canvas>
+  <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.fillStyle = "#ECF9FF";
+    ctx.fillRect(0, 0, 200, 100);
+  </script>
+
+
+
+
 
 </body>
 
 <footer>
-  <p>Created by: Ruinan Ma</p>
+  <p> Created by: <b>Ruinan Ma</b></p>
   <p><time pubdate datetime="2023-01-30"></time></p>
 </footer>
 
